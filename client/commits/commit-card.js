@@ -89,28 +89,7 @@ function CommitCard(props) {
                 >
                     <CallMadeIcon className={classes.icon} />
                 </IconButton>
-                <IconButton
-                    className={clsx(classes.expand, {
-                        [classes.expandOpen]: expanded,
-                    })}
-                    onClick={handleExpandClick}
-                    aria-expanded={expanded}
-                    aria-label="show more"
-                >
-                    <ExpandMoreIcon />
-                </IconButton>
             </CardActions>
-            <Collapse in={expanded} timeout="auto" unmountOnExit>
-                <List dense>
-                    {props.message.map((item, i) => {
-                        return (
-                            <ListItem key={i}>
-                                <Typography>• {item}</Typography>
-                            </ListItem>
-                        )
-                    })}
-                </List>
-            </Collapse>
         </Card>
     );
 }
