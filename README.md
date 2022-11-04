@@ -1,11 +1,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About the proyect
 
-This project is the technical test for FULLTIMEFORCE.
+This project is the technical test for FULLTIMEFORCE
 
 ### Built With
 
-This project was built with 
+This project was built with  
 
 * [Node](https://nodejs.org/)
 * [React](https://reactjs.org)
